@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "Thuwarakesh's Development Template"
+version = "0.1.0"
+description = "This creates a Django project with GraphQL support, and react project with Tailwind CSS."
+authors = ["Thuwarakesh Murallie"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+Django = "^3.2.6"
+django-filter = "^2.4.0"
+graphene-django = "^2.15.0"
+psycopg2-binary = "^2.9.1"
+
+[tool.poetry.dev-dependencies]
+black = "^21.8b0"
+python-dotenv = "^0.19.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
